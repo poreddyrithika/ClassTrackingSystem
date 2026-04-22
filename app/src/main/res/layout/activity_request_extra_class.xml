@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop" />
+
+    <!-- White Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_overlay" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:text="Request Extra Class"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/coffee"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Subject -->
+            <EditText
+                android:id="@+id/etSubject"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Subject"
+                android:background="@drawable/edittext_bg"
+                android:padding="12dp"
+                android:textColor="@android:color/black" />
+
+            <Spinner
+                android:id="@+id/spinnerSection"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/spinner_white" />
+
+            <Spinner
+                android:id="@+id/spinnerDay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/spinner_white" />
+
+            <Spinner
+                android:id="@+id/spinnerPeriod"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/spinner_white" />
+
+            <Spinner
+                android:id="@+id/spinnerClassroom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/spinner_white"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Submit Request"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#9E9E9E" />
+
+            <TextView
+                android:id="@+id/tvRequestsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Requests"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/coffee"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"/>
+
+            <!-- Requests Container -->
+            <LinearLayout
+                android:id="@+id/containerRequests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ClassTrackingSystem</string>
+
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string-array name="user_types">
+        <item>Select Type of User</item>
+        <item>Student</item>
+        <item>Faculty</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
+
+

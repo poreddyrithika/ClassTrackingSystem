@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Theme -->
+    <style name="Theme.ClassTrackingSystem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">#0D47A1</item>
+        <item name="colorPrimaryVariant">#1565C0</item> <!-- slightly lighter for variant -->
+        <item name="colorSecondary">#03DAC5</item> <!-- used for Material widgets accent -->
+
+        <!-- Accent / Controls -->
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+
+        <!-- TextInputLayout & EditText -->
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MaterialComponents</item>
+        <item name="android:textCursorDrawable">@drawable/white_cursor</item>
+
+        <!-- Optional: if you want all EditTexts to have filled style -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+
+    </style>
+
+</resources>

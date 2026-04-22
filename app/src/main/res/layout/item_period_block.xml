@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flexbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp">
+
+    <!-- Period title -->
+    <TextView
+        android:id="@+id/txtPeriodTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P1 (08:15-09:05)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_caramel"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Classrooms wrap automatically -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/classroomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        flexbox:flexWrap="wrap"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="primary_blue">#0D47A1</color>
+    <color name="white_hint">#CCFFFFFF</color>
+    <color name="caramel">#C68E17</color>
+    <color name="coffee">#6F4E37</color>
+    <color name="brownie">#5C4033</color>
+    <color name="white_overlay">#CCFFFFFF</color>
+    <color name="cream">#FFF8E7</color>
+    <color name="light_caramel">#C68E5A</color>
+    <color name="pending_orange">#FFD580</color>
+    <color name="approved_green">#B0F2B6</color>
+    <color name="rejected_red">#FFB3B3</color>
+    <color name="status_approved_bg">#C8E6C9</color>   <!-- light green -->
+    <color name="status_approved_text">#1B5E20</color> <!-- dark green -->
+    <color name="status_rejected_bg">#FFCDD2</color>   <!-- light red -->
+    <color name="status_rejected_text">#B71C1C</color> <!-- dark red -->
+    <color name="status_pending_bg">#FFF9C4</color>    <!-- light yellow -->
+    <color name="status_pending_text">#F57F17</color>  <!-- dark yellow -->
+    <color name="loader_text">#000000</color>          <!-- black -->
+</resources>

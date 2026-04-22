@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.college.classtrackingsystem">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".AdminRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RequestExtraClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodaysScheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TodaysFreeClassesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreeClassroomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SectionTimetableActivity"
+            android:exported="false" /> <!-- Splash Screen (App Launcher) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Login Screen -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" /> <!-- Forgot Password Flow -->
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" /> <!-- Main Screen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" /> <!-- Dashboards -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+        <activity android:name=".ClassroomScheduleActivity" />
+    </application>
+
+</manifest>
