@@ -22,6 +22,7 @@ This system solves these issues by providing a centralized, role-based platform 
 - Splash screen (1000 ms delay)
 - Login system
 - Forgot Password functionality
+- Secure logout and exit confirmation dialog to prevent accidental session termination
 
 
 
