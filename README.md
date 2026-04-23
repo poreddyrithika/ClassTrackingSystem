@@ -1,20 +1,20 @@
 # ClassTrackingSystem
 
----
+
 
 ## 🚀 Overview
 The Class Tracking System is an Android application designed to automate and simplify classroom scheduling, extra class management, and real-time classroom availability tracking in a university environment.
 
 It reduces dependency on manual timetable checking by providing a centralized system for students, faculty, and administrators.
 
----
+
 
 ## 🎯 Problem Statement
 In many universities, scheduling extra classes and identifying available classrooms is done manually by timetable staff. This process is time-consuming, inefficient, and error-prone. Students also lack real-time visibility of free classrooms, leading to underutilization of campus resources. Additionally, last-minute timetable changes often cause confusion and scheduling conflicts.
 
 This system solves these issues by providing a centralized, role-based platform for managing timetables and classroom availability efficiently.
 
----
+
 
 ## ✨ Features
 
@@ -23,7 +23,7 @@ This system solves these issues by providing a centralized, role-based platform 
 - Login system
 - Forgot Password functionality
 
----
+
 
 ### 👨‍🎓 Student Dashboard
 - Find free classrooms (real-time)
@@ -31,7 +31,7 @@ This system solves these issues by providing a centralized, role-based platform 
 - View section’s today schedule
 - View full section timetable
 
----
+
 
 ### 👨‍🏫 Faculty Dashboard
 - Request extra classes
@@ -40,7 +40,7 @@ This system solves these issues by providing a centralized, role-based platform 
 - View selected section’s schedule
 - View section timetable
 
----
+
 
 ### 🛠️ Admin Dashboard
 - Manage extra class requests
@@ -50,15 +50,15 @@ This system solves these issues by providing a centralized, role-based platform 
 - View selected section schedule
 - View full section timetable
 
----
+
 
 ## 🏗️ Tech Stack
-- Java (Android Development)
+- Java , Kotlin (Android Development)
 - Android Studio
 - XML (UI Design)
 - Firebase (Database)
 
----
+
 
 ## 🧠 System Workflow
 1. User opens app → Splash Screen (1 second)
@@ -69,7 +69,7 @@ This system solves these issues by providing a centralized, role-based platform 
    - Admin Dashboard
 4. Each role accesses specific features and timetable data
 
----
+
 
 ## 📸 App UI Screens
 - Splash Screen  
@@ -80,25 +80,24 @@ This system solves these issues by providing a centralized, role-based platform 
 
 *(Add images or video demo here if needed)*
 
----
+
 
 ## 📈 Advantages
+- Better utilization of campus resources
 - Reduces manual workload of timetable staff
 - Real-time classroom availability
-- Better utilization of campus resources
 - Role-based access control
 - Reduces scheduling conflicts
 
----
+
 
 ## 🔮 Future Scope
 - Add real-time notifications for timetable changes
-- AI-based automatic classroom allocation
 - Implementation of an automated timetable generation system that can create optimized schedules without requiring manual entry of data into the database
 - Mobile and Web version integration
 - Cloud-based synchronization for multi-department access
 
----
+
 
 ## 👨‍💻 Author
 **P. Rithika Reddy**  
