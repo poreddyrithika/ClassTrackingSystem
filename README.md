@@ -10,7 +10,7 @@ It reduces dependency on manual timetable checking by providing a centralized sy
 
 
 ## 🎯 Problem Statement
-In many universities, scheduling extra classes and identifying available classrooms is done manually by timetable staff. This process is time-consuming, inefficient, and error-prone. Students also lack real-time visibility of free classrooms, leading to underutilization of campus resources. Additionally, last-minute timetable changes often cause confusion and scheduling conflicts.
+In our university, scheduling extra classes and identifying available classrooms is done manually by timetable staff. This process is time-consuming, inefficient, and error-prone. Students also lack real-time visibility of free classrooms, leading to underutilization of campus resources. Additionally, last-minute timetable changes often cause confusion and scheduling conflicts.
 
 This system solves these issues by providing a centralized, role-based platform for managing timetables and classroom availability efficiently.
 
@@ -75,21 +75,21 @@ This system solves these issues by providing a centralized, role-based platform 
 ## 📸 App UI Screens
 
 ### Splash Screen
-![Splash](ui-images/splash_screen.png)
+![Splash](ui-images/splash_screen.jpeg)
 
 ### Login Screen
-![Login](ui-images/login_page.png)
+![Login](ui-images/login_page.jpeg)
 
 ### Student Dashboard
-![Student](ui-images/student_dashboard.png)
+![Student](ui-images/student_dashboard.jpeg)
 
 ### Faculty Dashboard
-![Faculty](ui-images/faculty_dashboard.png)
+![Faculty](ui-images/faculty_dashboard.jpeg)
 
 ### Admin Dashboard
 <p float="left">
-  <img src="ui-images/faculty_dashboard.png" width="45%" />
-  <img src="ui-images/faculty_dashboard_scrollview.png" width="45%" />
+  <img src="ui-images/faculty_dashboard.jpeg" width="45%" />
+  <img src="ui-images/faculty_dashboard_scrollview.jpeg" width="45%" />
 </p>
 
 
@@ -113,5 +113,5 @@ This system solves these issues by providing a centralized, role-based platform 
 
 ## 👨‍💻 Author
 **P. Rithika Reddy**  
-B.Tech CSE (AI & ML)  
-Vignan’s University
+B.Tech ACSE (AI & ML)  
+Vignan University
