@@ -73,13 +73,24 @@ This system solves these issues by providing a centralized, role-based platform 
 
 
 ## 📸 App UI Screens
-- Splash Screen  
-- Login Page  
-- Student Dashboard  
-- Faculty Dashboard  
-- Admin Dashboard  
 
-*(Add images or video demo here if needed)*
+### Splash Screen
+![Splash](ui-images/splash_screen.png)
+
+### Login Screen
+![Login](ui-images/login_page.png)
+
+### Student Dashboard
+![Student](ui-images/student_dashboard.png)
+
+### Faculty Dashboard
+![Faculty](ui-images/faculty_dashboard.png)
+
+### Admin Dashboard
+<p float="left">
+  <img src="ui-images/faculty_dashboard.png" width="45%" />
+  <img src="ui-images/faculty_dashboard_scrollview.png" width="45%" />
+</p>
 
 
 
