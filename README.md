@@ -90,14 +90,15 @@ This system solves these issues by providing a centralized, role-based platform 
 ---
 
 ### Faculty Dashboard
+
 <p>
-  <img src="ui-images/faculty_dashboard.png" width="45%"/>
-  <img src="ui-images/faculty_dashboard_scrollview.png" width="45%"/>
+  <img src="ui-images/faculty_dashboard.png" width="250"/>
+  <img src="ui-images/faculty_dashboard_scrollview.png" width="250"/>
 </p>
 
 ---
 
-### 🛠️ Admin Dashboard
+### Admin Dashboard
 <img src="ui-images/admin_dashboard.png" width="250"/>
 
 
