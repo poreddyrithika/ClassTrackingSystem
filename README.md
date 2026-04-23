@@ -77,22 +77,22 @@ This system solves these issues by providing a centralized, role-based platform 
 ### Splash Screen
 <img src="ui-images/splash_screen.png" width="250"/>
 
----
+
 
 ### Login Screen
 <img src="ui-images/login_page.png" width="250"/>
 
----
+
 
 ### Student Dashboard
 <img src="ui-images/student_dashboard.png" width="250"/>
 
----
+
 
 ### Faculty Dashboard
 <img src="ui-images/faculty_dashboard.png" width="250"/>
 
----
+
 
 ### Admin Dashboard
 <p>
